@@ -14,7 +14,7 @@
     &__items {
         grid-area: 3 / 2 / 6 / 3;
         width: 40vw;
-        height: 30vh;
+        height: 38vh;
         background-color: #232323;
         opacity: 0.9;
         
@@ -40,8 +40,8 @@
         align-items: center;
         flex-grow: 1;
         &__items {
-            width: 100vw;
-            height: 50vh;
+            width: 80vw;
+            height: 45vh;
         }
     }
 }

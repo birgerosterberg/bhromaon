@@ -16,13 +16,19 @@ a {
     font-size: 14px;
     line-height: 26px;
     text-transform: uppercase;
-
+    &:link {
+        color: white;
+    }
+    &:active {
+        color: white;
+    }
     &:hover {
         opacity: 0.5;
     }
     &:visited {
         color: white;
     }
+
 }
 h2 {
     font-family: 'Aleo', serif;
