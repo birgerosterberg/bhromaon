@@ -1,0 +1,25 @@
+.section5__container {
+    height: 730px;
+    display: grid;
+    grid-template-columns: repeat(10,10%);
+    grid-template-rows: repeat(10,10%);
+    background-image: url("../images/section5_hazy_bg_man_on_mountain.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    h2 {
+        grid-area: 3 / 5 / 4 / 8 ;
+        text-align: center;
+    }
+    .s5i-1 {
+        display: flex;
+        grid-area: 4 / 3 / 7 / 6 ;
+    }
+    .para__head {
+        display: flex;
+        flex-direction: column;
+        grid-area: 4 / 6 / 8 / 10;
+        background-color: #333333;
+    }
+
+}
