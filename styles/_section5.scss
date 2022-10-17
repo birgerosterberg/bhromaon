@@ -1,11 +1,18 @@
 .section5__container {
-    height: 730px;
+    background-size: 100%;
+    height: 65vh;
     display: grid;
     grid-template-columns: repeat(10,10%);
     grid-template-rows: repeat(10,10%);
     background-image: url("../images/section5_hazy_bg_man_on_mountain.svg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
 
     h2 {
         grid-area: 3 / 5 / 4 / 8 ;
