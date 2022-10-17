@@ -7,7 +7,6 @@ p {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
     letter-spacing: 1.6px;
 }
 a {
@@ -74,3 +73,23 @@ h6 {
         font-size: 24px;
     }
 }
+
+@media screen and (min-width: 320px) and (max-width: 805px) { 
+    p {
+        font-size: 10px;
+    }
+    a {
+        font-size: 10px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (min-width: 806px) {
+ 
+    }
