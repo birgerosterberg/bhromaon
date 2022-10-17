@@ -1,0 +1,21 @@
+.button__box {
+    background-color: #5474FD;
+    border: none;
+    padding: 10px;
+    font-family: 'Aleo', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: white;
+    
+    &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+
+}

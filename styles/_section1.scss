@@ -8,21 +8,23 @@
     grid-template-columns: repeat(20,5%);
     grid-template-rows:repeat(20,5%) ;
     h2 {
-        grid-area: 6 / 4 / 8 / 7 ;
+        grid-area: 6 / 4 / 8 / 8 ;
     }
     .p-1 {
         grid-area: 8 / 4 / 10 / 11 ;
     }
     .p-2 {
-        grid-area: 10 / 4 / 12 / 11;
-    }
-    button {
-        grid-area: 12 / 4 / 13 / 6;
+        grid-area: 11 / 4 / 13 / 11;
     }
     .i-1 {
         grid-area: 3 / 12 / 8 / 16;
     }
     .i-2 {
         grid-area:  10 / 13 / 17 / 18 ;
+    }
+    button {
+        grid-area: 13 / 4 / 14 / 6;
+        margin-top: 20px;
+        height: 6vh;
     }
 }

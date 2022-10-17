@@ -20,25 +20,29 @@
     <header>
         <div class="heading__container">
             <!-- HEADING TEXT -->
-            <h1 class="bhromaon">BHROMAON</h1>
+            <h1 class="bhromaon"> BHROMAON</h1>
             <!-- Smaller heading text -->
             <h4>Safe Travel Anywhere </h4>
             <!-- Search form -->
-            <form>
-                <input type="text" placeholder="Search Your Travel Destination" name="search">
+            <form action="#">
+                <input type="search" placeholder="Search Your Travel Destination" name="search">
                             <!-- SEARCH BUTTON -->
-                <button type="submit">Search<i class="fa-solid fa-magnifying-glass"></i></button>
+                <button type="submit" class="button__box">Search <i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
+            <div class="scroll__down">
+                <h6>Scroll Down</h6>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
         </div>
         <!-- Navigation Bar -->
         <div class="nav__container">
             <h1 class="bhromaon bhromaon-sm">BHROMAON</h1>
             <nav>
                 <ul>
-                    <li class="nav__item"><a href="">Who We Are</a></li>
-                    <li class="nav__item"><a href="">What We Do</a></li>
-                    <li class="nav__item"><a href="">Travel With Us</a></li>
-                    <li class="nav__item"><a href="">Contact Us</a></li>
+                    <li class="nav__item"><a href="#wwa">Who We Are</a></li>
+                    <li class="nav__item"><a href="#wwd">What We Do</a></li>
+                    <li class="nav__item"><a href="#twu">Travel With Us</a></li>
+                    <li class="nav__item"><a href="#foot">Contact Us</a></li>
                 </ul>
             </nav>
         </div>
@@ -46,18 +50,19 @@
     <!-- Content Section of the page -->
     <main>
 <!--Styles used _section1.scss  -->
-        <section>
+        <section id="wwa">
             <div class="section1__container">
                 <h2>Why Choose Us</h2>
                 <p class="p-1">Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee </p>
                 <p class="p-2">Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that.</p>
-                <button>EXPLORE PLACES</button>
+                <button class="button__box">EXPLORE PLACES</button>
                 <img class="i-1" src="./images/section1_house_at_lake.svg" alt="House at lush green lake">
                 <img class="i-2" src="./images/section1_smal_heading_bg_pic.svg" alt="Big mountain view picture">
             </div>
         </section>
-<!-- Styles used _section2.scss -->
-        <section>
+
+<!-------------------------------------------Styles used _section2.scss -->
+        <section id="wwd">
             <div class="icon__text__container">
                 <div class="icon__text__container__items">
                     <div class="icon__text__container--1">
@@ -75,30 +80,36 @@
                 </div>
             </div>
         </section>
-<!-- Styles used _section3.scss -->
+
+<!-------------------------------------------Styles used _section3.scss -->
         <section> 
             <div class="section3__container">
                 <div class="section3__container__items">
                     <h5>Spain </h5>
                     <h3>Grand Spain Madrid</h3>
                     <p>But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system</p>
-                    <button>Book Now</button>
+                    <button class="button__box">Book Now</button>
                 </div>
             </div>
         </section>
-<!-- Styles used _section4.scss -->
+
+
+<!-------------------------------------------Styles used _section4.scss -->
+
         <section>
             <div class="section4__container">
                 <div class="section4__container__items">
                     <h5>Spain </h5>
                     <h3>Grand Spain Madrid</h3>
                     <p>But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system</p>
-                    <button>Book Now</button>
+                    <button class="button__box">Book Now</button>
                 </div>
             </div>
         </section>
-<!-- Styles used _section5.scss -->
-        <section>
+
+<!------------------------------------------ Styles used _section5.scss -->
+
+        <section id="twu">
             <div class="section5__container">
                 <h2>What Our  Tourist Say</h2>
                 <img class="s5i-1" src="./images/section5_man_with_hazy_mountainview.svg" alt="">
@@ -109,8 +120,10 @@
             </div>
         </section>
     </main>
-<!-- PAGE FOOTER -->
-    <footer>
+
+<!-------------------------------------------PAGE FOOTER -->
+
+    <footer id="foot">
         <div class="footer__container">
             <div class="footer_text">
                 <h3 class="bhromaon bhromaon-sm">BHROMAON</h3>

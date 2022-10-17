@@ -1,5 +1,6 @@
 .icon__text__container {
-    height: 337px;
+    min-height: 35vh;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -7,13 +8,13 @@
     background-color: #333333;
     background-image: url("../images/section2__flex__line.svg");
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: top 10% center;
     text-align: center;
 
     &__items {
         display: flex;
         justify-content: space-between;
-        width: 1005px;
+        width: 65vw;
         
         &--1 {
             margin-left: 20px;

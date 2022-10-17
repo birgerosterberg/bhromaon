@@ -16,6 +16,14 @@ a {
     font-weight: 400;
     font-size: 14px;
     line-height: 26px;
+    text-transform: uppercase;
+
+    &:hover {
+        opacity: 0.5;
+    }
+    &:visited {
+        color: white;
+    }
 }
 h2 {
     font-family: 'Aleo', serif;
